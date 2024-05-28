@@ -1,6 +1,6 @@
 
 function setup() {
-    createCanvas(400, 400);
+    createCanvas(windowWidth,windowHeight);
   }
   
   function draw() {
@@ -14,7 +14,6 @@ function setup() {
   function draw() {
     
     background(179,197,144);
-    noStroke();
     stroke(50)
     strokeWeight (2)
     for (let i = 0; i < height; i += 20) {
